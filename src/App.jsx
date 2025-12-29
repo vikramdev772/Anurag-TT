@@ -1,8 +1,12 @@
 import React from 'react'
 import "./App.css"
+import Fib from './fib.jsx'
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <Fib />
+    </div>
+    
   )
 }
 
